@@ -1,0 +1,59 @@
+/* backcolor=============> RGB(247, 236, 222) */
+/* book mark icon ========> <i class="fa-solid fa-book-bookmark"></i> */
+/* link icon ==============> <i class="fa-solid fa-link"></i> */
+/* submit button color =========> RGBA(187, 65, 32, 0.592) */
+/* title font ============>font-family: "Pacifico", cursive; */
+/* booksubtitle============><i class="fa-solid fa-bookmark"></i> */
+
+
+.main-body
+{
+    background-color: RGB(247, 236, 222)
+}
+.header h1 {
+    position: relative;
+    font-family: "Pacifico", cursive; 
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(53, 46, 40);
+    isolation: isolate;
+    z-index: 1;
+  }
+  .header h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    margin: auto;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms ease-out;
+    z-index: -1;
+  }
+  .header h1:hover::before {
+    height: 50%;
+  }
+h2{
+    font-size: 25px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ button.btn-submit{
+ background-color: RGB(187, 65, 32);
+ color: white;
+width: 140px;
+}
+table .thead{
+    height: 35px;
+    padding-inline: 10px;
+   
+    background-color:#ffffff;
+}
+.wall{
+   
+    border-top: dashed 2px black;
+    border-bottom: dashed 2px black;
+}
